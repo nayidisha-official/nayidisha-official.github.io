@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nayi Disha - Sarkari Yojna, Motivation, Career Tips & More">
+  <title>Nayi Disha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f8fb;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #1e90ff, #00bfff);
+      padding: 1.5rem;
+      color: white;
+      text-align: center;
+      border-bottom: 5px solid #0077cc;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      flex-wrap: wrap;
+    }
+    nav a {
+      padding: 1rem;
+      text-decoration: none;
+      color: #1e90ff;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #0077cc;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?motivation,career') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 10px #000;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 0 1rem;
+    }
+    .section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .section h2 {
+      color: #1e90ff;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      text-align: center;
+      background: #1e90ff;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      z-index: 999;
+    }
+    .trust-section {
+      background: #e6f3ff;
+      padding: 2rem;
+      text-align: center;
+    }
+    .trust-section h2 {
+      color: #0077cc;
+    }
+    .trust-logos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+    .trust-logos img {
+      height: 60px;
+      object-fit: contain;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Nayi Disha</h1>
+    <p>Ek Nayi Soch, Ek Naya Raasta</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#yojna">Yojna</a>
+    <a href="#motivation">Motivation</a>
+    <a href="#career">Career Tips</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <div>Apni Zindagi Ko Do Nayi Disha</div>
+  </section>
+
+  <section class="section" id="yojna">
+    <h2>Sarkari Yojna</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>PM Awas Yojna 2024</h3>
+        <p>Eligibility, Form & Benefits ka pura detail.</p>
+      </div>
+      <div class="card">
+        <h3>Startup India Yojna</h3>
+        <p>Kaise milta hai loan, kaise apply karein.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="motivation">
+    <h2>Motivational Boost</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>"Ruko Nahi, Thako Nahi"</h3>
+        <p>Ek kahani jo badal degi soch.</p>
+      </div>
+      <div class="card">
+        <h3>Success ke 5 Formula</h3>
+        <p>Jo har student aur youth ko pata hone chahiye.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="career">
+    <h2>Career Tips</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Freelancing Guide</h3>
+        <p>Kaise ghar baithe kaam shuru karein?</p>
+      </div>
+      <div class="card">
+        <h3>Govt Exams 2025</h3>
+        <p>Upcoming CGPSC, Vyapam, SSC exams info.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Nayi Disha</h2>
+    <p>Nayi Disha ek aisi digital platform hai jo aapko naye career options, motivational kahaniyan aur sarkari yojna ki jankari ek jagah par deti hai. Hamara maksad hai har youth aur parivaar tak sahi aur sachchi jankari pahunchana.</p>
+  </section>
+
+  <section class="section trust-section">
+    <h2>Trusted By</h2>
+    <div class="trust-logos">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Emblem_of_India.svg/1200px-Emblem_of_India.svg.png" alt="Govt of India logo">
+      <img src="https://1000logos.net/wp-content/uploads/2020/09/Google-Logo-768x432.png" alt="Google logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Facebook_logo_%282019%29.svg/1200px-Facebook_logo_%282019%29.svg.png" alt="Facebook logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png" alt="Microsoft logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Youtube_social_white_square_(2017).svg/2048px-Youtube_social_white_square_(2017).svg.png" alt="YouTube logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Twitter_new_X_logo.png/800px-Twitter_new_X_logo.png" alt="Twitter X logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Instagram logo">
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: contact@nayidisha.in</p>
+    <p>Instagram: @nayidisha_official</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nayi Disha | All rights reserved.</p>
+    <p><a href="#" style="color:white; text-decoration: underline;">Privacy Policy</a> | <a href="#" style="color:white; text-decoration: underline;">Copyright</a></p>
+  </footer>
+
+  <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</body>
+</html>
